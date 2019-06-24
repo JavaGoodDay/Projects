@@ -1,0 +1,69 @@
+<html>
+<script>
+    function doit() {
+        var ref = document.getElementById("x");
+
+        var Y = event.clientY;
+        var X = event.clientX;
+
+        if (event.ctrlKey){
+            var obj = new Draw(Y, X, "green");
+            var obj = new Draw2(Y, X, "yellow")
+            var obj = new Draw3(Y, X, "orange")
+        }
+        else if (event.altKey){
+            var obj = new Draw(Y, X, "blue")
+            var obj = new Draw2(Y, X, "red")
+            var obj = new Draw3(Y, X, "cyan")
+        }
+        else{
+            var obj = new Draw(Y, X, "black")
+            var obj = new Draw2(Y, X, "purple")
+            var obj = new Draw3(Y, X, "lime")
+        }
+
+    }
+
+    class Draw {
+        constructor(T, L, color) {
+            var ref = document.createElement("span");
+            ref.innerHTML = "1";
+            ref.style.position = "absolute";
+            ref.style.color = color;
+            ref.style.top = T;
+            ref.style.left = L;
+            document.body.appendChild(ref);
+        }
+    }
+
+    class Draw2 {
+        constructor(T, L, color) {
+            var ref = document.createElement("span");
+            ref.innerHTML = "0";
+            ref.style.position = "absolute";
+            ref.style.color = color;
+            ref.style.top = T-75;
+            ref.style.left = L-75;
+            document.body.appendChild(ref);
+        }
+
+    }
+
+    class Draw3 {
+        constructor(T, L, color) {
+            var ref = document.createElement("span");
+            ref.innerHTML = "1";
+            ref.style.position = "absolute";
+            ref.style.color = color;
+            ref.style.top = T+75;
+            ref.style.left = L+75;
+            document.body.appendChild(ref);
+        }
+    }
+
+</script>
+
+<body onmousemove="doit()">
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+.navbar > a{
+    color:rgb(33, 33, 109);
+   ali
+}
+
+
+body{
+    background-color:white);
+    margin:0px;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #00000052;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 62px;
+    height: 70px;
+    /* animation-name: test;
+    animation-duration: 2s;
+    animation-timing-function: linear; */
+    background-image: linear-gradient(to right, rgb(33, 33, 109),white);
+    margin: 0px;
+  
+
+ 
+}
+
+
+h2{
+    color:rgb(33, 33, 109);
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    text-shadow: 2px 2px 4px #00000065;
+    font-size: 25px;
+    margin:10px;
+}
+
+h3{
+    color:rgb(33, 33, 109);
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    text-shadow: 2px 2px 4px #00000065;
+    font-size: 25px;
+    margin:10px;
+}
+
+.nameEmail > input,.nameEmail > textarea {
+
+margin-bottom: 10px;
+background-color: rgb(219, 219, 219);
+border-radius: 6px;
+
+}
+
+.nameEmail > div {
+    min-width: 150px;
+    color:rgb(33, 33, 109);
+    text-size-adjust: 200;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: medium;
+    
+    }
+
+.nameEmail > button {
+    background-color:rgb(33, 33, 109);
+    color: white;
+    height: 45px;
+    width: 120px;
+    border-radius: 6px;
+    
+}
+
+.nameEmail> button:hover {
+    background-color:rgb(33, 33, 109);
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-radius: 6px;
+    
+}
+
+/* 
+@keyframes test{
+    0% {background-image: linear-gradient(to left, rgb(33, 33, 109),rgb(33, 33, 109));}
+    10% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.904)rgb(33, 33, 109));}
+    20% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.801),rgb(33, 33, 109));}
+    30% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.712),rgb(33, 33, 109));}
+    40% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.603),rgb(33, 33, 109));}
+    50% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.507),rgb(33, 33, 109));}
+    60% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.404),rgb(33, 33, 109));}
+    70% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.301),rgb(33, 33, 109));}
+    80% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.212),rgb(33, 33, 109));}
+    90% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0.11),rgb(33, 33, 109));}
+    100% {background-image: linear-gradient(to left, rgba(33, 33, 109, 0),rgb(33, 33, 109));}
+    } */
